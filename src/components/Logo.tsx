@@ -6,8 +6,8 @@ export function Logo({ className = "" }: { className?: string }) {
           К
         </span>
         <span className="flex flex-col leading-none">
-          <span className="text-lg font-serif font-semibold tracking-wide text-primary">KOPNINOVA</span>
-          <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">studio</span>
+          <span className="text-lg font-serif font-semibold tracking-wide text-primary">MAKAROVA</span>
+          <span className="text-[10px] uppercase tracking-[0.3em] text-muted-foreground">ai studio</span>
         </span>
       </div>
     </div>

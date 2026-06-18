@@ -131,7 +131,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">E-mail</h3>
-                    <p className="text-sm text-muted-foreground">kopninova.studio@mail.ru</p>
+                    <p className="text-sm text-muted-foreground">puladura34@gmail.com</p>
                   </div>
                 </div>
               </CardContent>
@@ -144,8 +144,12 @@ export function ContactSection() {
                     <Phone className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Телефон</h3>
-                    <p className="text-sm text-muted-foreground">+7 900 123-45-67</p>
+                    <h3 className="font-semibold mb-1">Телефон / Telegram</h3>
+                    <p className="text-sm text-muted-foreground">
+                      8-902-427-84-65
+                      <br />
+                      <span className="text-primary">@armos_design</span>
+                    </p>
                   </div>
                 </div>
               </CardContent>
@@ -160,7 +164,7 @@ export function ContactSection() {
                   <div>
                     <h3 className="font-semibold mb-1">Студия</h3>
                     <p className="text-sm text-muted-foreground">
-                      ИП Копнинова Ксения Александровна
+                      Ксения Макарова
                       <br />
                       Работаем онлайн по всей России
                     </p>

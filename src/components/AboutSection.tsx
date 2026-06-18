@@ -2,19 +2,19 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle2, Sparkles } from "lucide-react"
 
 const values = [
-  { title: "Премиальное качество", description: "Каждый образ проработан до мелочей и выглядит дорого" },
-  { title: "Без выезда в студию", description: "Нейрофотосессия — роскошные кадры из любой точки мира" },
-  { title: "Прозрачность", description: "Понятные условия и сроки без скрытых доплат" },
-  { title: "Индивидуальный подход", description: "Учитываем нишу, стиль и задачи вашего бренда" },
-  { title: "Единый стиль", description: "Фото, соцсети и полиграфия — в одной эстетике" },
-  { title: "Поддержка", description: "Сопровождаем от идеи до готового результата" },
+  { title: "Экономия бюджета", description: "Премиальная картинка без раздутых смет на классический продакшн" },
+  { title: "Без выезда из дома", description: "Идеальные кадры в любом образе, стиле и локации — онлайн" },
+  { title: "Скорость", description: "Готовый результат в разы быстрее, чем при классической съёмке" },
+  { title: "Безграничные возможности", description: "От строгой бизнес-классики до сложного концептуального арта" },
+  { title: "Пробивает баннерную слепоту", description: "Рекламные креативы, которые реально приводят клиентов" },
+  { title: "Индивидуальный подход", description: "Обсуждаем задачу и предлагаем идеи под ваш личный бренд" },
 ]
 
 const stats = [
   { number: "150+", label: "Проектов" },
   { number: "120+", label: "Довольных клиентов" },
-  { number: "300+", label: "Нейрообразов" },
-  { number: "100%", label: "Под ключ" },
+  { number: "300+", label: "AI-образов" },
+  { number: "0 ₽", label: "Аренда студии" },
 ]
 
 export function AboutSection() {
@@ -30,16 +30,16 @@ export function AboutSection() {
             О студии
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Образ, который{" "}
+            Привет! Я —{" "}
             <span className="text-primary relative">
-              продаёт
+              Ксения Макарова
               <svg className="absolute -bottom-2 left-0 w-full" height="8" viewBox="0 0 200 8" fill="none">
                 <path d="M0 4C50 2 150 6 200 4" stroke="currentColor" strokeWidth="2" className="text-primary" />
               </svg>
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Онлайн-студия Ксении Копниновой помогает экспертам, онлайн-школам, коучам, психологам и бьюти-мастерам выглядеть дорого и убедительно. Создаём цельный визуальный образ, который вызывает доверие и привлекает клиентов.
+            Дизайнер и создатель современного визуала с помощью нейросетей. Помогаю экспертам и бизнесу выглядеть дорого в соцсетях — без аренды студий, гонораров фотографам и долгих согласований.
           </p>
         </div>
 

@@ -76,7 +76,7 @@ export function HeroSection() {
       <div className="container mx-auto text-center max-w-5xl relative z-10">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6 animate-fade-in-up">
           <Sparkles className="w-4 h-4 text-primary" />
-          <span className="text-sm font-medium text-primary">Онлайн-студия Ксении Копниновой</span>
+          <span className="text-sm font-medium text-primary">Студия нейровизуала Ксении Макаровой</span>
         </div>
 
         <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 animate-fade-in-up text-balance">
@@ -102,7 +102,7 @@ export function HeroSection() {
         </h1>
 
         <p className="text-xl sm:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto animate-fade-in-up animate-delay-100 leading-relaxed">
-          Нейрофотосессии, брендинг, упаковка сообщества ВК и дизайн полиграфии. Создаём роскошный образ для экспертов, онлайн-школ и бьюти-мастеров.
+          Помогаю экспертам и бизнесу выглядеть дорого в соцсетях — без аренды студий, гонораров фотографам и долгих согласований.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up animate-delay-200 mb-12">
