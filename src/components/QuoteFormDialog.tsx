@@ -52,14 +52,14 @@ export function QuoteFormDialog({ packageName, variant = "default", className, c
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <Button variant={variant} className={className}>
-          {children || "Запросить расчет"}
+          {children || "Оставить заявку"}
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[500px] max-h-[90vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle>Запросить расчет</DialogTitle>
+          <DialogTitle className="font-serif">Оставить заявку</DialogTitle>
           <DialogDescription>
-            Заполните форму, и мы свяжемся с вами в ближайшее время для бесплатной консультации.
+            Заполните форму, и Ксения свяжется с вами для бесплатной консультации.
           </DialogDescription>
         </DialogHeader>
         <form onSubmit={handleSubmit} className="space-y-4 mt-4">
@@ -99,12 +99,12 @@ export function QuoteFormDialog({ packageName, variant = "default", className, c
           </div>
 
           <div className="space-y-2">
-            <Label htmlFor="company">Компания (необязательно)</Label>
+            <Label htmlFor="company">Ваша ниша (необязательно)</Label>
             <Input
               id="company"
               value={formData.company}
               onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-              placeholder="Название компании"
+              placeholder="Коуч, психолог, бьюти-мастер, онлайн-школа..."
             />
           </div>
 
@@ -115,12 +115,12 @@ export function QuoteFormDialog({ packageName, variant = "default", className, c
               onValueChange={(value) => setFormData({ ...formData, package: value })}
             >
               <SelectTrigger id="package">
-                <SelectValue placeholder="Выберите тариф" />
+                <SelectValue placeholder="Выберите пакет" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="Базовый">Базовый</SelectItem>
-                <SelectItem value="Про">Про</SelectItem>
-                <SelectItem value="Индивидуальный">Индивидуальный</SelectItem>
+                <SelectItem value="Нейрофотосессия">Нейрофотосессия</SelectItem>
+                <SelectItem value="Личный бренд">Личный бренд</SelectItem>
+                <SelectItem value="Под ключ">Под ключ</SelectItem>
                 <SelectItem value="Еще не определился">Еще не определился</SelectItem>
               </SelectContent>
             </Select>

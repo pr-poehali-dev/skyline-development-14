@@ -1,27 +1,27 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Lightbulb, PaletteIcon, Rocket, ArrowRight } from "lucide-react"
+import { MessageCircle, Wand2, Gift, ArrowRight } from "lucide-react"
 import { Fragment } from "react"
 
 const steps = [
   {
-    icon: Lightbulb,
-    title: "Концепция и планирование",
+    icon: MessageCircle,
+    title: "Бриф и концепция",
     description:
-      "Вместе обсуждаем вашу идею, цели и видение сайта. Разрабатываем четкий план, соответствующий вашим пожеланиям, с правильной структурой и функциональностью.",
+      "Обсуждаем вашу нишу, задачи и желаемый образ. Подбираем стиль, референсы и палитру, которые подчеркнут вашу экспертность и привлекут нужную аудиторию.",
     number: "01",
   },
   {
-    icon: PaletteIcon,
-    title: "Разработка и дизайн",
+    icon: Wand2,
+    title: "Создание визуала",
     description:
-      "Наши разработчики и дизайнеры приступают к созданию сайта. Фокусируемся на стильном дизайне, удобном для пользователей и технически безупречном.",
+      "Генерируем нейрообразы, разрабатываем фирменный стиль и оформление. Прорабатываем каждую деталь, чтобы результат выглядел премиально и цельно.",
     number: "02",
   },
   {
-    icon: Rocket,
-    title: "Тестирование и запуск",
+    icon: Gift,
+    title: "Правки и передача",
     description:
-      "Тщательно тестируем сайт для обеспечения оптимальной производительности. После вашего одобрения запускаем проект и остаемся на связи для поддержки.",
+      "Вносим правки до полного совпадения с вашим видением и передаём готовые материалы в нужных форматах. Остаёмся на связи для поддержки.",
     number: "03",
   },
 ]
@@ -34,13 +34,13 @@ export function ProcessSection() {
       <div className="container mx-auto max-w-7xl relative z-10">
         <div className="text-center mb-16">
           <div className="inline-block mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
-            Наш процесс
+            Как мы работаем
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            От <span className="text-primary">идеи</span> к <span className="text-primary">результату</span>
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
+            От <span className="text-primary">идеи</span> к <span className="text-primary">образу</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            В три простых шага превращаем вашу идею в мощное онлайн-присутствие, приносящее результат.
+            В три простых шага создаём премиальный визуал, который работает на ваш бренд.
           </p>
         </div>
 

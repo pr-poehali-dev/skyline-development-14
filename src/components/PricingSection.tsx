@@ -4,39 +4,38 @@ import { QuoteFormDialog } from "@/components/QuoteFormDialog"
 
 const pricingTiers = [
   {
-    name: "Базовый",
-    price: "99 900",
+    name: "Нейрофотосессия",
+    price: "4 900",
     features: [
-      "До 5 страниц",
-      "Адаптивный дизайн",
-      "Базовая SEO-оптимизация",
-      "Форма обратной связи",
-      "1 месяц поддержки",
+      "15 обработанных фото",
+      "3 образа на выбор",
+      "Подбор стиля и локаций",
+      "Без выезда в студию",
+      "Готовность за 2-3 дня",
     ],
     highlighted: false,
   },
   {
-    name: "Про",
-    price: "249 900",
+    name: "Личный бренд",
+    price: "19 900",
     features: [
-      "До 15 страниц",
-      "Премиум-дизайн",
-      "Расширенная SEO-оптимизация",
-      "Интеграция CMS",
-      "Функционал e-commerce",
-      "3 месяца поддержки",
+      "Нейрофотосессия (30 фото)",
+      "Логотип и фирменный стиль",
+      "Упаковка сообщества ВК",
+      "Шаблоны постов и сторис",
+      "Единый премиальный стиль",
     ],
     highlighted: true,
   },
   {
-    name: "Индивидуальный",
+    name: "Под ключ",
     price: "По запросу",
     features: [
-      "Неограниченно страниц",
-      "Кастомный функционал",
-      "API-интеграции",
-      "Персональный менеджер",
-      "6 месяцев поддержки",
+      "Полный брендинг",
+      "Нейрофотосессия без лимита",
+      "Соцсети + полиграфия",
+      "Персональное сопровождение",
+      "Приоритетные сроки",
     ],
     highlighted: false,
   },
@@ -59,11 +58,11 @@ export function PricingSection() {
             </span>
             Прозрачные цены
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-balance">
-            Выберите <span className="text-primary">идеальный тариф</span> для вашего проекта
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-balance">
+            Выберите <span className="text-primary">свой пакет</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            От стартапов до крупного бизнеса — у нас есть подходящее решение
+            От отдельной нейрофотосессии до полного образа бренда под ключ
           </p>
         </div>
 
@@ -121,8 +120,8 @@ export function PricingSection() {
 
         <div className="mt-12 text-center">
           <p className="text-sm text-muted-foreground">
-            Все тарифы включают <span className="text-primary font-semibold">бесплатную настройку хостинга</span> и{" "}
-            <span className="text-primary font-semibold">SSL-сертификат</span>
+            Все пакеты включают <span className="text-primary font-semibold">бесплатную консультацию</span> и{" "}
+            <span className="text-primary font-semibold">правки до результата</span>
           </p>
         </div>
       </div>

@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Phone, MapPin, Send } from "lucide-react"
+import { Mail, Phone, Send, Crown } from "lucide-react"
 
 export function ContactSection() {
   const [formData, setFormData] = useState({
@@ -37,11 +37,11 @@ export function ContactSection() {
           <div className="inline-block mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
             Контакты
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Давайте <span className="text-primary">создавать вместе</span>
+          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
+            Создадим <span className="text-primary">ваш образ</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Готовы воплотить ваши цифровые амбиции? Свяжитесь с нами без обязательств и узнайте, чем мы можем помочь.
+            Оставьте заявку, и Ксения свяжется с вами для бесплатной консультации. Обсудим вашу задачу и подберём идеальное решение.
           </p>
         </div>
 
@@ -131,7 +131,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">E-mail</h3>
-                    <p className="text-sm text-muted-foreground">hello@example.com</p>
+                    <p className="text-sm text-muted-foreground">kopninova.studio@mail.ru</p>
                   </div>
                 </div>
               </CardContent>
@@ -155,14 +155,14 @@ export function ContactSection() {
               <CardContent className="p-6">
                 <div className="flex items-start gap-4">
                   <div className="p-3 rounded-lg bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 group-hover:scale-110">
-                    <MapPin className="h-5 w-5" />
+                    <Crown className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Время работы</h3>
+                    <h3 className="font-semibold mb-1">Студия</h3>
                     <p className="text-sm text-muted-foreground">
-                      Пн - Пт: 9:00 - 18:00
+                      ИП Копнинова Ксения Александровна
                       <br />
-                      Выходные: по договоренности
+                      Работаем онлайн по всей России
                     </p>
                   </div>
                 </div>
