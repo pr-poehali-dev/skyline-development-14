@@ -33,6 +33,12 @@ const items = [
     image: "https://cdn.poehali.dev/projects/643e4ca9-3453-4d4d-97e1-17d0a75cdf1b/bucket/39cc7c14-ec12-4445-8600-ac9e47c1d803.jpg",
     tags: ["Wildberries", "Ozon", "Инфографика"],
   },
+  {
+    title: "Свитер укороченный",
+    category: "Одежда",
+    image: "https://cdn.poehali.dev/projects/643e4ca9-3453-4d4d-97e1-17d0a75cdf1b/bucket/5d225c23-a156-476c-ad89-d73fb14a9a28.jpg",
+    tags: ["Wildberries", "Ozon", "Инфографика"],
+  },
 ]
 
 export function MarketplaceSection() {
